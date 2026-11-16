@@ -12,6 +12,7 @@ narrative and the editorial judgement, using Structured Outputs (Pydantic).
 import html
 import os
 import time
+import json
 from typing import Dict, List
 
 import pandas as pd
@@ -22,7 +23,8 @@ from pydantic import BaseModel, Field
 
 st.set_page_config(page_title="Money Matters AI", page_icon="💸", layout="wide")
 
-MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL_NAME = os.environ.get("GEMINI_MODEL", "models/gemini-4-hydrogen")
+
 
 # --------------------------------------------------------------------------
 # Styling
