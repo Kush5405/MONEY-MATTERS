@@ -2,7 +2,7 @@
 
 > Every applicant gets an instant answer. Every producer gets a ranked shortlist.
 
-**Live demo:** https://your-app-name.streamlit.app *(replace with your Streamlit Community Cloud URL after deploying)*
+**Live demo:** [https://your-app-name.streamlit.app](https://money-matters-ai.streamlit.app/) *(replace with your Streamlit Community Cloud URL after deploying)*
 
 ## The problem
 
